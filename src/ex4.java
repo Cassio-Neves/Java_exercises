@@ -10,17 +10,17 @@ public class ex4 {
         int codigo, horas;
         double valor_hora;
 
-        System.out.println("Digite o seu código: ");
+        System.out.print("Digite o seu código: ");
         codigo = input.nextInt();
 
-        System.out.println("Digite as suas horas trabalhadas: ");
+        System.out.print("Digite as suas horas trabalhadas: ");
         horas = input.nextInt();
 
         System.out.println("Digite o valor de cada hora de trabalho: ");
         valor_hora = input.nextDouble();
 
-        System.out.printf("Código do funcionário: ", codigo);
-        System.out.printf("Salário: ", horas * valor_hora);
+        System.out.println("Código do funcionário: " + codigo);
+        System.out.println("Salário: "+ horas * valor_hora);
 
             input.close();
     }
